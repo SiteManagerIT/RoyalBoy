@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools</title>
+        <link rel="stylesheet" type="text/css" href="tools.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <!--no phones-->
+ <script>
+  // JavaScript code to detect device type
+  var isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+  var isTablet = /iPad|Android|webOS/i.test(navigator.userAgent);
+
+  // Function to redirect if device is not a laptop
+  function redirectIfNotLaptop() {
+    if (isMobile || isTablet) {
+      window.location.href = "Nsupported.html";
+    }
+  }
+</script>
+<!--end-->
+
+</head>
+<body onload="redirectIfNotLaptop()">
+    <header>
+        <!--begin navbar-->
+            <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+            <div class="nav-title">
+              
+          
+              <!--only way i could fix it srry for messy use of code-->
+              
+            <a href="index.html" style="text-decoration:none" class="logo"><span><font color="#ffffff"> royal._.boy7</font></span></a>
+           
+            </div>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+            
+            
+              <div class="nav-links">
+                <a href="index.html"><i class="ri-home-2-fill ri-1x"></i> Home</a>
+                <a href="tools.html"><i class="ri-tools-fill ri-1x"></i> Tools</a>
+
+    
+    
+              </div>
+            </div>
+      <!--end navbar-->
+      </header>
+      <main>
+        <div class="mc" id="mc">
+          <h1>My Tools</h1>
+          <br>
+      <div class="item" onclick="goToPage('codebreakers.html')">
+        <img src="codebreakers.png" alt="Item 1">
+        <p>codebreakers</p>
+      </div>
+      
+      <div class="item" onclick="goToPage('codeRDPbreaker.html')">
+        <img src="CodeRDPbreaker.png" alt="Item 2">
+        <p>CodeRDPbreaker</p>
+      </div>
+      
+      <div class="item" onclick="goToPage('xsamir.html')">
+        <img src="xamir.jpg" alt="Item 3">
+        <p>Xsamir</p>
+      </div>
+
+      <div class="mc" id="mc">
+    <div class="item" onclick="goToPage('codestressbreaker.html')">
+      <img src="Codestressbreaker.png" alt="Item 1">
+      <p>Codestressbreaker</p>
+    </div>
+    
+    <script>
+      function goToPage(url) {
+        window.location.href = url;
+      }
+    </script>
+      </main>
+</body>
+</html>

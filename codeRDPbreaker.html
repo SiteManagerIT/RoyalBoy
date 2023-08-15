@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codeRDPbreaker</title>
+        <link rel="stylesheet" type="text/css" href="codeRDPbreaker.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <script src="troll.js"></script>
+        <!--no phones-->
+        <script>
+            // JavaScript code to detect device type
+            var isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+            var isTablet = /iPad|Android|webOS/i.test(navigator.userAgent);
+          
+            // Function to redirect if device is not a laptop
+            function redirectIfNotLaptop() {
+              if (isMobile || isTablet) {
+                window.location.href = "Nsupported.html";
+              }
+            }
+          </script>
+          <!--end-->
+</head>
+<body onload="redirectIfNotLaptop()"></body>>
+    <header>
+        <!--begin navbar-->
+            <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+            <div class="nav-title">
+              
+          
+              <!--only way i could fix it srry for messy use of code-->
+              
+            <a href="index.html" style="text-decoration:none" class="logo"><span><font color="#ffffff"> royal._.boy7</font></span></a>
+           
+            </div>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+            
+            
+              <div class="nav-links">
+                <a href="index.html"><i class="ri-home-2-fill ri-1x"></i> Home</a>
+                <a href="tools.html"><i class="ri-tools-fill ri-1x"></i> Tools</a>
+
+    
+    
+              </div>
+            </div>
+      <!--end navbar-->
+      </header>
+      <main>
+        <div class="tooltext" id="tooltext">
+<h1>RDP Breaker Tool</h1>
+<br>
+    <h1>Author(s)</h1>
+
+    <a href="https://github.com/Royalboy2000/" style="text-decoration:none" ><span><font color="#3A89DE">@Samir aka royal._.boy7</font></span></a><p> </p>
+    <div class="datext" id="datext">
+    <h1>Features</h1>
+    <ul>
+        <li>Fetch RDP Hosts: The tool allows users to specify the number of RDP hosts they want to fetch for further assessment.</li>
+        <br>
+        <li>Masscan Integration: Users can choose to use masscan, a fast port scanning tool, to identify hosts with open RDP ports.</li>
+        <br>
+        <li>Metasploit Integration: Users can choose to use Metasploit, a popular penetration testing framework, to perform security assessments on the fetched RDP hosts.</li>
+        <br>
+        <li>Interactive Menu: The tool presents an interactive menu that displays choices in a user-friendly manner, making it easy for users to navigate.</li>
+        <br>
+        <h1>UPDATE V2</h1>
+        <li>Improved Readability: Python code is structured and easier to read.</li>
+        <br>
+        <li>Better User Interaction: Python script provides a user-friendly interface with input validation.</li>
+        <br>
+        <li>Color and ASCII Art: Python adds color and ASCII art for a visually appealing display.</li>
+        <br>
+        <li>Secure Command Execution: Python uses subprocess for safer command execution.</li>
+        <br>
+        <li>String Manipulation: Python uses regular expressions for sophisticated text processing.</li>
+        <br>
+        <li>Enhanced Error Handling: Python displays informative error messages in red for better troubleshooting.</li>
+        <br>
+        <li>Code Reusability: Python's functions enable easier code reuse and maintainability.</li>
+        <br>
+        <li>Expanded Features: Python adds options to run multiple Metasploit exploits.</li>
+        <br>
+        <li>Flexibility: Python handles various scenarios and exceptions for a smoother user experience.</li>
+    </ul>
+    <br>
+    <h2>New Exploit 1</h2>
+    <ul>
+<li>Exploit Name: CVE-2019-0708 BlueKeep</li>
+<br>
+<li>Description: Exploit for Microsoft Remote Desktop Protocol (RDP) vulnerability (CVE-2019-0708), also known as BlueKeep.</li>
+<br>
+<li>Added in Python Script: The Python script now supports running the CVE-2019-0708 BlueKeep exploit in Metasploit.</li>
+<br>
+<li>Usage: To run the CVE-2019-0708 BlueKeep exploit, choose option '1' when prompted for the exploit in the script. Then, provide the required inputs such as the number of RDP hosts and the file containing the list of RDP hosts</li>
+<br>
+<li>Note: Make sure to have the latest version of Metasploit installed and up-to-date exploit modules for CVE-2019-0708 BlueKeep.</li>
+    </ul>
+    <br>
+    <h2>New Exploit 2</h2>
+    <ul>
+        <li>Exploit Name: CVE-2021-34527 PrintNightmare</li>
+        <br>
+        <li>Description: Exploit for Windows Print Spooler Remote Code Execution vulnerability (CVE-2021-34527), also known as PrintNightmare.</li>
+        <br>
+        <li>Added in Python Script: The Python script now supports running the CVE-2021-34527 PrintNightmare exploit in Metasploit.</li>
+        <br>
+        <li>Usage: To run the CVE-2021-34527 PrintNightmare exploit, choose option '2' when prompted for the exploit in the script. Then, provide the required inputs such as the number of RDP hosts and the file containing the list of RDP hosts.</li>
+        <br>
+        <li>Note: Make sure to have the latest version of Metasploit installed and up-to-date exploit modules for CVE-2021-34527 PrintNightmare.</li>
+    </ul>
+    <br>
+    <h2>New Exploit 3</h2>
+    <ul>
+        <li>Exploit Name: CVE-2021-36942 MS-RDP Licensing</li>
+        <br>
+        <li>Description: Exploit for Microsoft Remote Desktop Protocol (RDP) Licensing service vulnerability (CVE-2021-36942).</li>
+        <br>
+        <li>Added in Python Script: The Python script now supports running the CVE-2021-36942 MS-RDP Licensing exploit in Metasploit.</li>
+        <br>
+        <li>Usage: To run the CVE-2021-36942 MS-RDP Licensing exploit, choose option '3' when prompted for the exploit in the script. Then, provide the required inputs such as the number of RDP hosts and the file containing the list of RDP hosts.</li>
+        <br>
+        <li>Note: Make sure to have the latest version of Metasploit installed and up-to-date exploit modules for CVE-2021-36942 MS-RDP Licensing.</li>
+    </ul>
+    </div>
+    <br>
+    <h1>How to deploy</h1>
+    <div class="command1" id="command1">
+    <p>sudo apt-get update -y</p>
+</div>
+<br>
+    <div class="command2" id="command2">
+    <p>sudo apt-get upgrade y</p>
+</div>
+<br>
+    <div class="command3" id="command3">
+    <p>git clone https://github.com/Royalboy2000/codeRDPbreaker</p>
+</div>
+<br>
+    <div class="command4" id="command4">
+    <p>cd codeRDPbreaker</p>
+</div>
+<br>
+    <div class="command5" id="command5">
+    <p>pip install pyfiglet colorama</p>
+</div>
+<br>
+    <div class="command6" id="command6">
+    <p>sudo python3 main.py</p>
+</div>
+<br>
+
+    <h1>Feedback</h1>
+    if you have any feedback just contact us at <a href="https://www.instagram.com/s.a.m.i.r_012/" style="text-decoration:none" ><span><font color="#3A89DE">https://www.instagram.com/s.a.m.i.r_012/</font>
+    </div>
+    <br>
+    </main>
+</body>
+</html>
